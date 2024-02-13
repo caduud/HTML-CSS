@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: magic;
+    src: url(fontes/Magic\ Retro.ttf); format: truetype;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*font-family: 'Arvo', serif;
+font-family: 'Gamja Flower', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;*/
+
+
+body{
+    background-color: #fed5bd;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+div#lado{
+    display: flex;
+    height: 970px;
+}
+
+div#lado1{
+    position: relative;
+    text-align: left;
+    width: 632px;
+    margin-left: 300px;
+}
+
+div#lado2{
+    position: relative;
+    text-align: right;
+    width: 632px;
+    margin-right: 300px;
+}
+
+.logo img{
+    padding-top: 50px;
+    border-radius: 30px;
+    width: 60px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.logo img:hover {
+    width: 90px;
+}
+
+div#mensagens{
+    margin-top: 253px;
+    font-weight: normal;
+    width: 900px;
+}
+
+.m1{
+
+    font-size: 3.5em;
+    color: #5F2903;
+    margin: 0px;
+    font-family:'Arvo', serif; 
+    font-style: italic;
+}
+
+.m2{
+    font-size: 3em;
+    color:black;
+    margin: 0px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.m3{
+    margin-top: 20px;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 200;
+}
+
+.botao{
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: #A64B17;
+    border: 0px;
+    overflow: hidden;
+    transition: all 0.3s;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+div#botao2{
+    text-align: right;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 248px;
+}
+
+.home{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fed5bd;
+    padding-right: 35px;
+    font-size: 18px;
+    color:#5F2903;
+    transition: all 0.5s;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.home:hover{
+    color:#5F2903;
+    color:black;
+}
+
+.produtos{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fed5bd;
+    padding-right: 35px;
+    font-size: 18px;
+    color:#5F2903;
+    transition: all 0.5s;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+} 
+
+.produtos:hover{
+    color:#5F2903;
+    color:black;
+}
+
+.servicos{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fed5bd;
+    padding-right: 35px;
+    font-size: 18px;
+    color:#5F2903;
+    transition: all 0.5s; 
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
+}
+
+.servicos:hover{
+    color:black;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.inscrevase{
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    font-size: 20px;
+    border-radius: 6px;
+    color: white;
+    background-color: #A64B17;
+    border: 0px;
+    transition: all 0.5s;
+    font-family:'Gamja Flower', sans-serif;
+}
+
+.inscrevase:hover{
+    background-color: black;
+}
+
+div#imagem{
+    padding-top: 106px;
+    padding-right:100px;
+    padding-bottom: 210px;
+}
+
+
+

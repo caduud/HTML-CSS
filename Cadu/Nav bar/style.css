@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+*{
+margin: 0px;
+}
+
+body{
+    display: flex; 
+}
+
+header{
+    display: flex;
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    padding: 20px 0px;
+}
+
+div{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px 7px 5px 7px;
+    background-color: rgb(156, 20, 79);
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .some{
+        display: none;
+    }
+    nav:hover > a{
+        display: grid;
+    }
+    .some{
+        padding: 6px;
+        border-radius: 0px;
+        margin: 0px 95px;
+    }
+
+    .aparece{
+        margin: 5px 110px;
+        width: 50px;
+    }
+
+   a.aparece{
+    width: 50px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
