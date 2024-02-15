@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .caixa{
+        border: 1px solid black;
+        height: 200px;
+        width: 1000px;
+        margin: 20px;
+        border-radius: 15px;
+        background-image: url(Imagens/wallpaper003.jpg);
+    }
+
+    div#c1{
+        background-position:left top;
+        /*config padrão (left, top)*/
+        /*a primeira posição é referente ao lado direito e esquerdo da imagem, sendo assim a segunda posição é referente a parte de cima e de baixo da imagem*/
+
+    }
+
+    div#c2{
+        background-position: left center;
+    }
+
+    div#c3{
+        background-position: center center;
+    }
+
+    div#c4{
+      background-position: right bottom;  
+    }
+</style>
+<body>
+    <div class="caixa" id="c1"></div>
+    <div class="caixa" id="c2"></div>
+    <div class="caixa" id="c3"></div>
+    <div class="caixa" id="c4"></div>
+</body>
+</html>
