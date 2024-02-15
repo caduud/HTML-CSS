@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    /* CENTRALIZAR VERTICALMENTE IMAGEM */
+
+    *{
+        margin: 0px;
+    }
+    section#container{
+        background-color: purple;
+        height: 100vh;
+        background-image: url(Imagens/target001.png);
+        background-size: 100% 100%;
+        background-attachment: scroll;
+        position: relative;
+    }
+
+    #conteudo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(Imagens/target001.png);
+        background-size: 100% 100%;
+        background-color: yellow;
+        height: 400px;
+        width: 400px;
+    }
+</style>
+<body>
+    <section id="container">
+        <section id="conteudo">
+        </section>
+    </section>
+</body>
+</html>
