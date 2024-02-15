@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(Imagens/wallpaper001.jpg);
+    }
+    .quadrado{
+        border: 1px solid black;
+        height: 500px;
+        width: 500px;
+        display: inline-flex;
+        justify-content: space-evenly;
+        background-color: bisque;
+    }
+
+    .quadrado#a{
+        background-color: aqua;
+    }
+
+    .quadrado#b{
+        background-image: linear-gradient(to bottom, red, blue);
+    }
+
+    .quadrado#c{
+        background-image: url(Imagens/pattern003.png);
+    }
+
+</style>
+<body>
+    <div class="quadrado" id="a"></div>
+    <div class="quadrado" id="b"></div>
+    <div class="quadrado" id="c"></div>
+</body>
+</html>
