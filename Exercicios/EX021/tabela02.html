@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            text-align: center;
+        }
+        th, td{
+            border: 1px black solid;
+            padding: 10px;
+        }
+        thead{
+            background-color: gray;
+        }
+        .pessoa, .cidade{
+            background-color: aqua;
+        }
+
+        .sexida{
+            background-color: burlywood;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="pessoa">
+            <col class="sexida" span="2">
+            <col class="cidade">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Pessoa</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>Carlos</td>
+            <td>M</td>
+            <td>18</td>
+            <td>Irati</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Rio</td>
+        </tr>
+        <tr>
+            <td>Isa</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Rolândia</td>
+        </tr>
+        <tr>
+            <td>Ederson</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Irati</td>
+        </tr>
+    </table>
+</body>
+</html>
