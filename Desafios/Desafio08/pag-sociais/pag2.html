@@ -7,15 +7,48 @@
     <style>
         *{
             margin: 0px;
-            padding: 0px;
+            padding: 0px;  
+            font-family: Arial, Helvetica, sans-serif;
         }
+
+        *::-webkit-scrollbar{
+            display: none;
+        }
+        body{
+            display: grid;
+        }
+
         img{
-            image-orientation: from-image;
-            width: 285px;
+            width: 267px;       
+        }
+
+        div.fundo{
+            width: 267px;
+            height: 50px;
+            background-color: darkred;
+            position: relative;
+            cursor: pointer;
+        }
+
+        div.fundo:hover{
+            background-color: red;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <img src="../imagens/tela-youtube.png" alt="">
+    <img class=".scroll-hidden" src="../imagens/tela-youtube.png" alt="">
+    <div class="fundo">
+        <a href="https://www.youtube.com/user/cursosemvideo/playlists" target="_blank">ACESSE</a>
+    </div>
 </body>
 </html>

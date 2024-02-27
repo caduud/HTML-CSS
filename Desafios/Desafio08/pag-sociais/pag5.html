@@ -5,13 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;  
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        *::-webkit-scrollbar{
+            display: none;
+        }
         body{
-            background-image: url(../imagens/tela-twitter.jpg);
-            background-repeat: no-repeat;
+            display: grid;
+        }
+
+        img{
+            width: 267px;       
+        }
+
+        div.fundo{
+            width: 267px;
+            height: 50px;
+            background-color: darkred;
+            position: relative;
+            cursor: pointer;
+        }
+
+        div.fundo:hover{
+            background-color: red;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    
+    <img src="../imagens/tela-twitter.jpg" alt="">
+    <div class="fundo">
+        <a href="https://twitter.com/guanabara/" target="_blank">ACESSE</a>
+    </div>
 </body>
 </html>
