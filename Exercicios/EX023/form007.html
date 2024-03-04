@@ -1,0 +1,44 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h1>Meu sétimo formulário</h1>
+        <form action="form.php" method="post"> 
+            <label for="iest">Estado:</label>
+            <select name="est" id="iest">
+                <optgroup label="SUL">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+                <optgroup label="SULDESTE">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+            
+            <br>
+            <br>
+            
+            <label for="itime">Times:</label> 
+            <input type="text" name="time" id="itimes" list="times">
+            <datalist id="times">
+                <option>Corinthians</option>
+                <option>Vasco</option>
+                <option>Flamengo</option>
+            </datalist> 
+            
+            <br>
+            <br>
+
+            <label for="itexto">Seu texto:</label><br>
+            <textarea name="texto" id="itexto" cols="30" rows="10">
+            </textarea>
+        </form>
+    </body>
+    </html>
