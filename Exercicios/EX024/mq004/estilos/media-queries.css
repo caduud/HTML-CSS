@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@media print{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    main{
+        border: 2px solid black;
+    }
+
+    img#cel{display: none;}
+    img#tablet{display: none;}
+    img#pc{display: none;}
+    img#tv{display:none;}
+    img#imp{
+        display: block;
+        margin: auto;
+    }
+
+    h2::before{
+        content: "Versão de impressora";
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    img#cel{display: none;}
+    img#tablet{
+        display:block;
+        margin:auto;
+    }
+    img#pc{display: none;}
+    img#tv{display:none;}
+    img#imp{display: none;}
+
+    h2::before{
+        content: "Versão Tablet";
+    }
+    
+}
+
+
+
+@media screen and (min-width:992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    img#cel{display: none;}
+    img#tablet{display:none;}
+    img#pc{
+        display: block;
+        margin:auto;
+    }
+    img#tv{display:none;}
+    img#imp{display: none;}
+
+    h2::before{
+        content: "Versão PC";
+    }
+}
+
+@media screen and (min-width:1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    img#cel{display: none;}
+    img#tablet{display:none;}
+    img#pc{display: none;}
+    img#tv{
+        display:block;
+        margin: auto;}
+    img#imp{display: none;}
+
+    h2::before{
+        content: "Versão Tv";
+    }
+}
