@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@media screen and (min-width:601px) {
+    
+header a{
+    display: none;
+}
+
+header ul{
+    display: block;
+}
+
+header li{
+    display: inline-block;
+    margin:0px 5px 0px 0px;
+    background-color: rgb(76, 76, 76);
+    padding: 10px;
+    color: white;
+}
+
+header menu{
+    background-color: transparent;
+}
+}
