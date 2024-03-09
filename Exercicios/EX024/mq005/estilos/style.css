@@ -28,18 +28,18 @@ header menu{
     background-color: rgb(113, 113, 113);
 }
 
-header a{
+header i{
     background-color: #5b5b5b;
     padding: 10px;
-    font-weight: normal;
-    text-decoration: none;
     color: white;
     text-align: center;
     display: block;
+    width: 98.9%;
 }
 
-header a:hover{
-    background-color: #393939;
+header i:hover{
+    background-color: white;
+    color: black;
 }
 
 header a:active >header ul{
