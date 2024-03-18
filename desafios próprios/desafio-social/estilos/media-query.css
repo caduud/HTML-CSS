@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    body{
+        background-image: linear-gradient(to top, rgb(50, 27, 50) 10%, rgb(22, 157, 175));
+    }
+
+    main{
+        width: 80vw;
+        max-width: 800px;
+        height: 300px;
+        border: 1px solid black;
+    }
+
+    main > div#imagem{
+        float: left;
+        height: 100%;
+        width: 33%;
+    }
+
+    div#login{
+        float: right;
+        width: 60%;
+    }
+
+    main > div#login > form > div.formu{
+        width: 100%;
+    }
+}
